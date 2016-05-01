@@ -26,35 +26,46 @@
 }
 
 .coatClass {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
     width: auto\9; 
 }
 
 .shirtClass {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
     width: auto\9;
 }
 
 .pantsClass {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
     width: auto\9; /* ie8 */
 }
 
 .outfitDiv {
     margin: auto;
-    width: 60%;
+    width: 50px;
     padding-top: 10%;
+    padding: 50px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
 
 
 body {
+    /*width: 800px;*/
     margin: 0;
     padding: 0;
-    background-color: gray;
+    
+    
 }
+
 
 h1 {
     text-align: center;

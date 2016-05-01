@@ -47,29 +47,6 @@ var shirts = [
 	}
 ];
 
-var shirts = [
-	{
-		name: 'Blue Lulu Lemon Shirt',
-		color: 'blue',
-		style: 'casual',
-		weather: ["cold","fair","warm"],
-		image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/gray-shirt.png'
-	},
-	{
-		name: 'Gray Shirt',
-		color: 'gray',
-		style: 'casual', // can be an array
-		weather: ["cold","fair","warm"],
-		image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/gray-shirt.png'
-	},
-	{
-		name: 'Red Lulu Lemon Shirt',
-		color: 'red',
-		style: 'casual', // can be an array
-		weather: ["cold","fair","warm"],
-		image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/red-shirt.png'
-	}
-];
 
 var pants = [
 	{

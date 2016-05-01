@@ -21,7 +21,7 @@
     </head>
     <body ng-controller="closetController as closet">   <!--Controller Name-->
         
-        <h1> Welcome to Simple Closet </h1>
+        <h1> Welcome to Simple Closett </h1>
         
             <div style="text-align:center">
                 <button ng-click="closet.refresh()" class="btn btn-default">New Out Fit</button>
@@ -31,19 +31,25 @@
                 <div></div>
             </closet-button>
             
-            <div class="outfitDiv" style="max-width:300px; position: relative; top: 1rem; left: 0px;">
-                <img class="pantsClass" src="{{closet.pantfinal}}" style="position: absolute; top: 375px; left: 0px;"></img>
-                <img class="shirtClass" src="{{closet.shirtfinal}}" style="position: absolute; top: 27px; left: 0px;"></img>
-                <img class="coatClass" src="{{closet.coatfinal}}" style="position: absolute; top: 27px; left: 0px;"></img>
+            <div class="outfitDiv">
+                <!--<div class="center">-->
+                <img class="shirtClass" ng-src="{{closet.shirtfinal}}"></img>
+                <img class="coatClass" ng-src="{{closet.coatfinal}}"></img>
+                <img class="pantsClass" ng-src="{{closet.pantfinal}}"></img>
                 
-                <!--<img class="pantsimg" src="{{closet.pantfinal}}"></img>-->
-                <!--<img class="shirtimg" src="{{closet.shirtfinal}}"></img>-->
-                <!--<img class="coatimg" src="{{closet.coatfinal}}"></img>-->
                 
+
+
             </div>
         
         <script type="text/javascript" src="db.js"> </script>
         <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="mapFactory.js"></script>
     </body>
     
 </html>
+
+
+
+
+
