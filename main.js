@@ -20,20 +20,43 @@ function closetController(mapFactory) {
 
 
     self.refresh = function() {
-    	self.coatfinal = getoutfit(coats).image
+    	self.coatfinal = weatherReturn(coats).name
     	
-    	self.shirtfinal = getoutfit(shirts).image
+    	self.shirtfinal = weatherReturn(shirts).name
     	
-    	self.pantfinal = getoutfit(pants).image
+    	self.pantfinal = weatherReturn(pants).name
 
-    	
+    	console.log('Jakcet: ',self.coatfinal)
+        console.log('Shirt: ',self.shirtfinal)
+        console.log('Pants: ',self.pantfinal)
+    }
+
+
+        function getMatchingCategory(item, category) {
+      let matches = []
+      let keys = Object.keys(item.matchingGroups);
+      let len = keys.length -1;
+      let i = -1
+      while(i++ < len) {
+        let type = item.matchingGroups[keys[i]];
+        if (Array.isArray(type)) {
+          let length = type.length -1;
+          let j = -1;
+          while(j++ < length) {
+            let match = type[j];
+            if (type[j].category === category) {
+              matches.push(type[j])
+            }
+          }
+        }
+      }
+      return matches
     }
 
 
 
-
-    function getoutfit(list) {
-        // var temp = 32;
+    function weatherReturn(list) {
+        //var temp = 80;
         var w = tempReturn(self.weather.temp);
         var newList = [];
         for (var i = 0; i < list.length; i++) {
