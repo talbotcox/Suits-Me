@@ -20,15 +20,11 @@ function closetController(mapFactory) {
             console.log(self)
         })
     })
-    
 
     self.stylePicker = day()
-
-
-
-
-
-
+    self.changeStyle = function(style){
+        self.stylePicker = style
+    }
 
     self.refresh = function() {
     	var shirtsArr = getShirts(shirts, self.appInfo.weather, self.stylePicker)
@@ -53,22 +49,15 @@ function closetController(mapFactory) {
         var watchStrapArr = getStrap(self.watchFaceFinal, watchstrap, self.stylePicker)
         self.watchStrapFinal = randomItemStart(watchStrapArr.strapsArr, watchStrapArr.counter)
 
-    	console.log('Jakcet: ',self.coatFinal.name)
-        console.log('Shirt: ',self.shirtFinal.name)
-        console.log('Pants: ',self.pantFinal.name)
-        console.log('Shoes: ',self.shoeFinal.name)
-        console.log('Belt: ',self.beltFinal.name)
-        console.log('Watch: ',self.watchFaceFinal.name)
-        console.log('Strap: ',self.watchStrapFinal.name)
 
+    console.log("Shirt: ", self.shirtFinal.name)
+    console.log("Jacket: ", self.coatFinal.name)
+    console.log("Pants: ", self.pantFinal.name)
+    console.log("Shoes: ", self.shoeFinal.name)
+    console.log("Belts: ", self.beltFinal.name)
+    console.log("WatchFace: ", self.watchFaceFinal.name)
+    console.log("WatchStrap: ", self.watchStrapFinal.name)
     }
-
-
-
-
-
-
-
 
 
 
@@ -94,10 +83,6 @@ function closetController(mapFactory) {
       return matches
     }
 
-    //===========================================================================
-    //==================This Generates an Array of Shirts========================
-    //==================   Based off Style and Weather ==========================
-    //===========================================================================
     function getShirts(shirts,weather,style){
     var shirtsArr = []
         for(var i in shirts){
@@ -250,11 +235,6 @@ var getStrap = function(watchfinal,watchstrap,style){
     }
     return strapObj
 }
-
-
-
-
-
 
     // ============== Function to return without a number ==========
     function randomItem(list) {
