@@ -22,7 +22,7 @@ function closetController(mapFactory) {
     })
     
 
-    self.stylePicker = 'casual'
+    self.stylePicker = day()
 
 
 
@@ -274,8 +274,15 @@ var getStrap = function(watchfinal,watchstrap,style){
         if(t <= 65){return "fair"}
         if(t <= 75){return "warm"}
         if(t > 75){return "hot"}
-        
     }
+    // ============== Function to get style by Day ==========
+    function day(){
+    var d = new Date();
+    var n = d.getDay();
+    if(n === 0){return "dress"} 
+    else if (n === 6){return 'running'}
+    else return 'casual'
+}
 
     
 
