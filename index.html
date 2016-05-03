@@ -26,6 +26,13 @@
             <div style="text-align:center">
                 <button ng-click="closet.refresh()" class="btn btn-default">New Out Fit</button>
             </div>
+
+            <select ng-model="closet.stylePicker" aria-label="ngSelected demo">
+              <option selected value="casual" ng-selected="selected">Casual</option>
+              <option value="dress" ng-selected="selected">Dress</option>
+              <option value="comfort" ng-selected="selected">Comfort</option>
+              <option value="running" ng-selected="selected">Running</option>
+            </select>
                 
             <closet-button>
                 <div></div>

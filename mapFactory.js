@@ -14,11 +14,11 @@
 
 			mf.displayLocation = function(cb){
 				navigator.geolocation.getCurrentPosition(function(geoPosition){
-					displayCity(geoPosition.coords.latitude,geoPosition.coords.longitude,function(finalTown){
-						cb(finalTown)
+					displayCity(geoPosition.coords.latitude,geoPosition.coords.longitude,function(finalTown,zipp){
+						cb(finalTown,zipp)
 					})
 				})
-			}							//sara whitton freaking sucks 
+			}							
 
 			// change this to displayCity or somehting similar - don't forget to change the references in your controller
 			function displayCity(latitude,longitude,cb){
@@ -32,23 +32,29 @@
 		        request.onreadystatechange = function(){
 		          if(request.readyState == 4 && request.status == 200){
 		            var data = JSON.parse(request.responseText);
+					var zip = data.results[0];
+					var zipp = zip.address_components[6].long_name;
 		            var city = data.results[4];
 		            var final = (city.formatted_address);
 					var finalTown = final.split(',')[0]
-					cb(finalTown)
+					cb(finalTown,zipp)
 					}
 				}
 				request.send();
 			}
 
 			// this will be the 'wether' equivalent of displayCity
-			mf.displayWeather = function(town,cb){
+			mf.displayWeather = function(zipp,cb){
 			var doppler= this;
-		       $http.get('http://api.openweathermap.org/data/2.5/forecast/city?q='+town+'&units=imperial&APPID=6c47381f22d2fc308cc3d5f06edd3d41')
+					$http.get('http://api.openweathermap.org/data/2.5/weather?zip='+zipp+',us&units=imperial&APPID=6c47381f22d2fc308cc3d5f06edd3d41')
 		        .then(function(response){
-				var temp = Math.floor(response.data.list[0].main.temp)
-				var sky =  response.data.list[0].weather[0].description
-				cb(temp,sky)
+				//console.log(response)
+				var temp = Math.floor(response.data.main.temp)
+				var tempMax = Math.floor(response.data.main.temp_max)
+				var sky =  response.data.weather[0].description
+				var skyIcon =  response.data.weather[0].icon  //http://openweathermap.org/weather-conditions
+				
+				cb(temp, tempMax, sky, skyIcon) //callback to the main.js file
 				
 
 		        })

@@ -1,158 +1,3 @@
-var coats = [
-  {
-    category: 'coat',
-    name: 'Black Lulu Vest',
-    color: 'black',
-    style: ['casual'],
-    weather: ["fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Blue Vest',
-    color: 'blue',
-    style: ['casual'],
-    weather: ["fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'KD Nike Jacket',
-    color: 'blue',
-    style: ['casual','comfort'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'MIO Pull Over',
-    color: 'blue',
-    style: ['casual','comfort'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Empyre Jacket',
-    color: 'gray',
-    style: ['casual','comfort'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'WTS Chicago Jacket',
-    color: 'gray',
-    style: ['casual','running','comfort'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Ironman Reflection Jacket',
-    color: 'gray',
-    style: ['comfort','running'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Ninth Hall Hoodie',
-    color: 'black',
-    style: ['casual'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Green Lulu Jacket',
-    color: 'green',
-    style: ['casual'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Thunder Jacket',
-    color: 'navy',
-    style: ['casual'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'RVCA Button Up',
-    color: 'black',
-    style: ['casual'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Nike Zip Up',
-    color: 'black',
-    style: ['casual','running','comfort'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Ironman Finisher Jacket',
-    color: 'black',
-    style: ['casual','comfort'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Helly Henson Jacket',
-    color: 'black',
-    style: ['casual'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Gray Lulu Zip Up',
-    color: 'gray',
-    style: ['casual','comfort'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Gray Lulu Hoodie',
-    color: 'gray',
-    style: ['casual','comfort'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Under Armour',
-    color: 'black',
-    style: ['casual','comfort','running'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Lulu Rain Jacket',
-    color: 'black',
-    style: ['casual','dress'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-    {
-    category: 'coat',
-    name: 'Helly Henson Coat',
-    color: 'black',
-    style: ['casual','dress'],
-    weather: ["cold","fair"],
-    image: ''
-  },
-];
-
 var shirts = [
 //================================= Short Sleeves =================================
   {
@@ -167,6 +12,14 @@ var shirts = [
     category: 'shirt',
     name: 'Ed Sheeran Shirt',
     color: 'white',
+    style: ['casual'],
+    weather: ["cold","fair","warm","hot"],
+    image: ''
+  },
+	{
+    category: 'shirt',
+    name: '',
+    color: '',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
     image: ''
@@ -279,7 +132,7 @@ var shirts = [
     category: 'shirt',
     name: 'Blue Lulu Shirt',
     color: 'blue',
-    style: ['casual','running','comfort'],
+    style: ['casual','running'],
     weather: ["cold","fair","warm"],
     image: ''
   },
@@ -287,7 +140,7 @@ var shirts = [
     category: 'shirt',
     name: 'Redman Finisher Shirt',
     color: 'blue',
-    style: ['casual','comfort'],
+    style: ['casual'],
     weather: ["cold","fair","warm","hot"],
     image: ''
   },
@@ -327,7 +180,7 @@ var shirts = [
     category: 'shirt',
     name: 'Cap-Tex Shirt',
     color: 'navy',
-    style: ['casual','running','comfort'],
+    style: ['casual','running'],
     weather: ["cold","fair","warm","hot"],
     image: ''
   },
@@ -343,7 +196,7 @@ var shirts = [
     category: 'shirt',
     name: '70.3 Finisher Shirt',
     color: 'black',
-    style: ['casual','comfort'],
+    style: ['casual'],
     weather: ["cold","fair","warm","hot"],
     image: ''
   },
@@ -351,7 +204,7 @@ var shirts = [
     category: 'shirt',
     name: 'I am Second Shirt',
     color: 'black',
-    style: ['casual','comfort'],
+    style: ['casual'],
     weather: ["cold","fair","warm","hot"],
     image: ''
   },
@@ -359,7 +212,7 @@ var shirts = [
     category: 'shirt',
     name: 'Neon Asic Shirt',
     color: 'yellow',
-    style: ['running','comfort'],
+    style: ['running'],
     weather: ["cold","fair","warm","hot"],
     image: ''
   },
@@ -464,7 +317,7 @@ var shirts = [
     category: 'shirt',
     name: 'His Racing Long Sleeve',
     color: 'white',
-    style: ['casual','running','comfort'],
+    style: ['casual','running'],
     weather: ["cold"],
     image: ''
   },
@@ -472,7 +325,7 @@ var shirts = [
     category: 'shirt',
     name: 'Sea Side Long Sleeve',
     color: 'white',
-    style: ['casual','comfort'],
+    style: ['casual'],
     weather: ["cold","fair"],
     image: ''
   },
@@ -496,7 +349,7 @@ var shirts = [
     category: 'shirt',
     name: 'Blue Lulu Long Sleeve',
     color: 'blue',
-    style: ['casual','running','comfort'],
+    style: ['casual','running'],
     weather: ["cold","fair"],
     image: ''
   },
@@ -504,7 +357,7 @@ var shirts = [
     category: 'shirt',
     name: 'Hourglass Long Sleeve',
     color: 'navy',
-    style: ['casual','running','comfort'],
+    style: ['casual','running'],
     weather: ["cold","fair"],
     image: ''
   },
@@ -535,9 +388,9 @@ var shirts = [
 	{
     category: 'shirt',
     name: 'White Button Up',
-    color: 'white',
+    color: 'White',
     style: ['dress'],
-    weather: ["cold",'fair','warm','hot'],
+    weather: ["cold",'fair','warm'],
     image: ''
   },
 	{
@@ -551,7 +404,7 @@ var shirts = [
 	{
     category: 'shirt',
     name: 'Perry Ellis Button Up',
-    color: 'orange',
+    color: 'Orange',
     style: ['dress'],
     weather: ["cold",'fair','warm'],
     image: ''
@@ -616,6 +469,7 @@ var shirts = [
     image: ''
   }
 ];
+
 
 var pants = [
 //================================= Jeans & Pants =================================
@@ -761,7 +615,7 @@ var pants = [
     name: '5" Lulu Running Shorts',
     color: 'green',
     style: ['running'],
-    weather: ['warm','hot','fair','cold'],
+    weather: ['warm','hot'],
     image: ''
   },
 	{
@@ -823,365 +677,63 @@ var pants = [
   }
 ]
 
-var shoes = [
-//================================= casual shoes =================================
-  {
-    category: 'shoe',
-    name: 'Black Adidas',
-    color: 'black',
-    style: ['casual'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'Black Converse',
-    color: 'black',
-    style: ['casual'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'White Converse',
-    color: 'white',
-    style: ['casual'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'Tan Clarks',
-    color: 'khaki',
-    style: ['casual'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'White Cole Hanns',
-    color: 'white',
-    style: ['casual','dress'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'Gucci Shoes',
-    color: 'black',
-    style: ['casual','dress'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'Brown Shoes',
-    color: 'brown',
-    style: ['casual','dress'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: "Blue Flyknit's",
-    color: 'blue',
-    style: ['casual','comfort'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: "light Blue Flyknit's",
-    color: 'blue',
-    style: ['casual','comfort'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: "Gray Nike's",
-    color: 'gray',
-    style: ['casual'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: "Navy Nike's",
-    color: 'navy',
-    style: ['casual'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-//================================= running shoes =================================
-	{
-    category: 'shoe',
-    name: 'Asic Gel-Kayano 22',
-    color: 'gray',
-    style: ['running'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'Asic Gel-Cumulas',
-    color: 'gray',
-    style: ['running'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'Mizuno Wave Rider 17',
-    color: 'navy',
-    style: ['running'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'Asic Gel-Nimbus',
-    color: 'blue',
-    style: ['running'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'New Balance Rev lite',
-    color: 'green',
-    style: ['running'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'On Cloud Runners',
-    color: 'gray',
-    style: ['running','comfort'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  },
-	{
-    category: 'shoe',
-    name: 'Asic Gel Noosa Tri 9',
-    color: 'red',
-    style: ['running'],
-    weather: ["cold","fair","warm",'hot'],
-    image: ''
-  }
-]
-
-var watchstrap = [
-  {
-    category: 'strap',
-    name: 'Red Sport Band',
-    color: 'red',
-    style: ['casual','comfort'],
-	model: ['black','silver'], 
-    image: ''
-  },
-	{
-    category: 'strap',
-    name: 'Black Sport Band',
-    color: 'black',
-    style: ['casual','comfort'],
-	model: ['black','silver'], 
-    image: ''
-  },
-	{
-    category: 'strap',
-    name: 'Leather Loop',
-    color: 'black',
-    style: ['casual','dress'],
-	model: ['black'], 
-    image: ''
-  },
-	{
-    category: 'strap',
-    name: 'Black Classic Buckle',
-    color: 'black',
-    style: ['casual','dress'],
-	model: ['black'], 
-    image: ''
-  },
-	{
-    category: 'strap',
-    name: 'Leather Classic Buckle',
-    color: 'Tan',
-    style: ['casual','dress'],
-	model: ['black','silver'], 
-    image: ''
-  },
-	{
-    category: 'strap',
-    name: 'Silver Milanese Loop',
-    color: 'silver',
-    style: ['casual','dress'],
-	model: ['silver'], 
-    image: ''
-  },
-	{
-    category: 'strap',
-    name: 'Black Milanese Loop',
-    color: 'black',
-    style: ['casual','dress'],
-	model: ['black'], 
-    image: ''
-  },
-	{
-    category: 'strap',
-    name: 'Silver Link Band',
-    color: 'silver',
-    style: ['casual','dress'],
-	model: ['silver'], 
-    image: ''
-  },
-	{
-    category: 'strap',
-    name: 'Garmin 920',
-    color: 'black',
-    style: ['running','comfort'],
-	model: ['black'], 
-    image: ''
-  },
-]
-
-var watchface = [
-  {
-    category: 'watch',
-    name: 'Black Apple Watch',
-    color: 'black',
-    style: ['casual','dress','comfort'],
-	model: ['black'], 
-    image: ''
-  },
-	{
-    category: 'watch',
-    name: 'Silver Apple Watch',
-    color: 'silver',
-    style: ['casual','dress','comfort'],
-	model: ['silver'], 
-    image: ''
-  },
-	{
-    category: 'watch',
-    name: 'Garmin 920',
-    color: 'black',
-    style: ['running','comfort'],
-	model: ['black'], 
-    image: ''
-  },
-]
-
-var belts = [
-  {
-    category: 'belt',
-    name: 'Black Nixion Belt',
-    color: 'black',
-    style: ['casual','dress'], 
-    image: ''
-  },
-	{
-    category: 'belt',
-    name: 'Black Express Belt',
-    color: 'black',
-    style: ['dress'], 
-    image: ''
-  },
-	{
-    category: 'belt',
-    name: 'Brown Express Belt',
-    color: 'Brown',
-    style: ['dress'], 
-    image: ''
-  },
-	{
-    category: 'belt',
-    name: 'Heart Rate Moniter',
-    color: 'black',
-    style: ['running','comfort'], 
-    image: ''
-  }
-]
-
-let colors = {}
-let styles = {}
-let weathers = {}
-
-categorizeMatches(coats, shirts, pants)
-function categorizeMatches(...categories) {
-  let categoryLen = categories.length -1;
-  let categoryIndex = -1;
-
-  while(categoryIndex++ < categoryLen) {
-    let category = categories[categoryIndex];
-
-
-    let len = category.length -1;
-    let i = -1
-
-    while(i++ < len) {
-      let item = category[i]
-      item.matchingGroups = {
-        styles: [],
-        colors: [],
-        weather: {},
-      };
-      colors[item.color] = colors[item.color] || {}
-      colors[item.color][item.category] = colors[item.color][item.category] || []
-      styles[item.style] = styles[item.style] || {}
-      styles[item.style][item.category] = styles[item.style][item.category] || []
-
-      item.matchingGroups.colors = colors[item.color];
-      item.matchingGroups.styles = styles[item.style];
-
-      colors[item.color][item.category].push(item)
-      styles[item.style][item.category].push(item)
-
-      let weatherLen = item.weather.length -1;
-      let index = -1
-      while(index++ < weatherLen) {
-        let weatherType = item.weather[index]
-        weathers[weatherType] = weathers[weatherType] || {}
-        weathers[weatherType][item.category] = weathers[weatherType][item.category] || []
-        item.matchingGroups.weather[weatherType] = weathers[weatherType];
-        weathers[weatherType][item.category].push(item)
-      }
-    }
-  }
-}
-
-
-var DataBase = {
-  categories: {coats, shirts, pants},
-  map: {colors, styles, weathers},
-  getShirtsByColor(colorName) {
-  	return this.map.colors[colorName].shirt
-  },
-  getShirtByColorAndStyle(colorName, style) {
-  	let shirts = this.map.colors[colorName].shirt
-  	return shirts.filter(s => s.style === style);
-  }
-}
-
+var weather = 'fair'
+var style = 'casual'
+function randomItem(list) {
+        return list[Math.floor(Math.random() * list.length)];
+    }
+    
 var badColors = {
-	red: ['pink','red','purple','green','yellow'],
+	red: ['pink','red','purple'],
 	black: ['black'],
-	white:['white'],
-	blue:['blue','navy'],
-	green:['green','red'],
-	gray:['gray'],
-	navy:['black','navy'],
-	orange:['red'],
-	khaki:["khaki",'red'],
-	yellow:['red','yellow'],
-	pink:['pink','red']
+	white:["white"],
+	blue:['blue']
 }
 
+var getShirts = function(shirts,weather,style){
+	var shirtsArr = []
+	for(var i in shirts){
+		if(shirts[i].weather.indexOf(weather) !== -1 && shirts[i].style.indexOf(style) !== -1){
+			shirtsArr.unshift(shirts[i])
+		}
 
-
-var c = 'pink';
-if (!badColors.red[c]) {
-  // Then use the color
+	}
+	return shirtsArr
 }
+
+//Shirt DB needs to be added and weather and Style
+var shirtsArr = getShirts(shirts, weather, style)
+var shirtFinal = randomItem(shirtsArr)
+
+
+function getPants(shirtFinal, pants, weather, style, badColors){
+	shirtColor = shirtFinal.color
+	pantsArr = []
+	console.log(badColors[shirtColor])
+	for(var i in pants){
+		if(pants[i].weather.indexOf(weather) !== -1 && pants[i].style.indexOf(style) !== -1){
+			console.log(badColors.shirtColor)
+			// if(badColors.shirtColor.indexOf(pants[i].color) !== -1){
+			// 	pantsArr.push(pants[i])	
+			// }
+			return "test"
+		}
+	}
+	return pantsArr
+}
+
+var pantsArr = getPants(shirtFinal, pants, weather, style, badColors)
+var pantFinal = randomItem(pantsArr)
+
+console.log('Shirt: ',shirtFinal.name)
+console.log('Pants: ',pantFinal.name)
+
+
+
+
+
+
+
+
+
+
