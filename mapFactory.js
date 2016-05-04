@@ -33,10 +33,12 @@
 		          if(request.readyState == 4 && request.status == 200){
 		            var data = JSON.parse(request.responseText);
 					var zip = data.results[0];
+					console.log(zip.address_components[2].long_name,zip.address_components[4].short_name)
 					var zipp = zip.address_components[6].long_name;
 		            var city = data.results[4];
 		            var final = (city.formatted_address);
-					var finalTown = final.split(',')[0]
+					var finalTown = final.split(',')[0] //I took out final town to get it for me see beside
+					finalTown = [zip.address_components[2].long_name+",",zip.address_components[4].short_name]
 					cb(finalTown,zipp)
 					}
 				}
@@ -48,7 +50,7 @@
 			var doppler= this;
 					$http.get('http://api.openweathermap.org/data/2.5/weather?zip='+zipp+',us&units=imperial&APPID=6c47381f22d2fc308cc3d5f06edd3d41')
 		        .then(function(response){
-				//console.log(response)
+				console.log(response)
 				var temp = Math.floor(response.data.main.temp)
 				var tempMax = Math.floor(response.data.main.temp_max)
 				var sky =  response.data.weather[0].description

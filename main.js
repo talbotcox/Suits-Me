@@ -8,24 +8,28 @@ function closetController(mapFactory) {
     mapFactory.displayLocation(function(finalTown,zipp){
         return mapFactory.displayWeather(zipp,function(temp, tempMax, sky, skyIcon){
             self.appInfo = {
-                temp: temp,
+                temp: temp + "℉",
                 tempMax: tempMax,
+                time: timeOBJ,
                 sky: sky,
-                skyIcon: skyIcon,
+                skyIcon: "http://openweathermap.org/img/w/"+skyIcon+".png",
                 town: finalTown,
                 zip: zipp,
-                weather:tempReturn(temp),
+                weather:tempReturn(tempMax),
                 // style: self.stylePicker
             }
             console.log(self)
         })
     })
 
+
+
+//==================This is function for Style Picker Button============================
     self.stylePicker = day()
     self.changeStyle = function(style){
         self.stylePicker = style
     }
-
+//=================This function Gets a new Outfit based off Style & Weather============
     self.refresh = function() {
     	var shirtsArr = getShirts(shirts, self.appInfo.weather, self.stylePicker)
     	self.shirtFinal = randomItem(shirtsArr)

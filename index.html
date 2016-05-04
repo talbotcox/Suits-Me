@@ -54,11 +54,7 @@ header div img {
         
     </head>
     <body ng-controller="closetController as closet">   <!--Controller Name-->
-        <header class="header">
-            <div class='welcome'>Suits Me</div>
-        </header>   
-
-        <header class="headerFixed">
+        <header class="header navbar-fixed-top">
             <div class='welcome'>Suits Me</div>
             <div class='headerButtons'>
                 <button ng-click="closet.refresh()" class="btn btn-default">New Out Fit</button>
@@ -88,49 +84,52 @@ header div img {
                 <div><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-5.jpg" alt></div>
             </header> -->
                 
-            
-            <div class="wrapper">
-                        <article class="main">
-                        <!-- Top Half -->
-                        <img class="coatImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/black-hoodie.png" alt>
+            <div class=''>
+                <div class="wrapper">
+                            <article class="main">
+                            <!-- Top Half -->
+                            <img class="coatImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/black-hoodie.png" alt>
 
-                        <img class="shirtImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/red-shirt.png" alt>
-                        <!-- Bottom Half -->
-                        <img class="pantsImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/light-moto.png" alt>
+                            <img class="shirtImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/red-shirt.png" alt>
+                            <!-- Bottom Half -->
+                            <img class="pantsImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/light-moto.png" alt>
 
-                        <img class="shoesImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/black-converse.png" alt>
+                            <img class="shoesImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/black-converse.png" alt>
 
-                        <img class="beltImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/black-belt.png" alt>
+                            <img class="beltImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/black-belt.png" alt>
 
-                        <img class="strapImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/red-strap.png" alt>
+                            <img class="strapImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/red-strap.png" alt>
 
-                        <img class="watchImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/black-watch-face.png" alt>
+                            <img class="watchImg" src="http://i233.photobucket.com/albums/ee158/TriBoy44/black-watch-face.png" alt>
 
 
-                        </article>
+                            </article>
 
-                        <article class="main">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <div>Red Shirt</div>
-                        <div>Black Jacket</div>
-                        <div>Diesel Jeans</div>
-                        <div>Black Converse</div>
-                        <div>Black Belt</div>
-                        <div>Red Strap</div>
-                        </article>
-                    <aside class="aside aside-1"><!-- Aside 1 --></aside>
-                    <aside class="aside aside-2"><!-- Aside 2 --></aside>
-              <footer class="footer">#SuitsMe By Talbot Cox</footer>
+                            <article class="main">
+                                <div class="weatherWiget">
+                                    <div>{{closet.appInfo.town[0]}} {{closet.appInfo.town[1]}}</div>
+                                    <div class="time">{{closet.appInfo.time}}</div>
+                                    <div class="sky text-capitalize">{{closet.appInfo.sky}}</div>
+                                    <div class="temp">{{closet.appInfo.temp}}</div>
+                                    <img class="skyImg" ng-src="{{closet.appInfo.skyIcon}}" alt>
+                                </div>
+                                <br>
+                                <div class="outFit">
+                                    <div>{{closet.shirtFinal.name}}</div>
+                                    <div>{{closet.coatFinal.name}}</div>
+                                    <div>{{closet.pantFinal.name}}</div>
+                                    <div>{{closet.shoeFinal.name}}</div>
+                                    <div>{{closet.beltFinal.name}}</div>
+                                    <div>{{closet.watchFaceFinal.name}}</div>
+                                    <div>{{closet.watchStrapFinal.name}}</div>
+                                </div>
+                            </article>
+                        <aside class="aside aside-1"><!-- Aside 1 --></aside>
+                        <aside class="aside aside-2"><!-- Aside 2 --></aside>
+                  <footer class="footer bottom">©SuitsMe By Talbot Cox</footer>
+                </div>
             </div>
-            <!-- <div class="outfitDiv">    
-            <span class="center">Test</span>
-
-            </div> -->
-        
+        <script type="text/javascript" src="time.js"> </script>
         <script type="text/javascript" src="db.js"> </script>
         <script type="text/javascript" src="main.js"></script>
         <script type="text/javascript" src="mapFactory.js"></script>
