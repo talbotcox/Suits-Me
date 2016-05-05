@@ -839,7 +839,7 @@ var shoes = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/black-converse.png'
   },
 	{
     category: 'shoe',
@@ -979,7 +979,7 @@ var watchstrap = [
     color: 'red',
     style: ['casual','comfort'],
 	model: ['black','silver'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/red-strap.png'
   },
 	{
     category: 'strap',
@@ -987,7 +987,7 @@ var watchstrap = [
     color: 'black',
     style: ['casual','comfort'],
 	model: ['black','silver'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/A6.png'
   },
 	{
     category: 'strap',
@@ -995,7 +995,7 @@ var watchstrap = [
     color: 'black',
     style: ['casual','dress'],
 	model: ['black'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/A3.png'
   },
 	{
     category: 'strap',
@@ -1003,7 +1003,7 @@ var watchstrap = [
     color: 'black',
     style: ['casual','dress'],
 	model: ['black'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/Black%20Classic%20Buckle.png'
   },
 	{
     category: 'strap',
@@ -1011,7 +1011,7 @@ var watchstrap = [
     color: 'Tan',
     style: ['casual','dress'],
 	model: ['black','silver'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/A1.png'
   },
 	{
     category: 'strap',
@@ -1019,7 +1019,7 @@ var watchstrap = [
     color: 'silver',
     style: ['casual','dress'],
 	model: ['silver'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/A5.png'
   },
 	{
     category: 'strap',
@@ -1027,7 +1027,7 @@ var watchstrap = [
     color: 'black',
     style: ['casual','dress'],
 	model: ['black'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/A4.png'
   },
 	{
     category: 'strap',
@@ -1035,15 +1035,15 @@ var watchstrap = [
     color: 'silver',
     style: ['casual','dress'],
 	model: ['silver'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/A7.png'
   },
 	{
     category: 'strap',
-    name: 'Garmin 920',
+    name: 'Black 920 Strap',
     color: 'black',
-    style: ['running','comfort'],
+    style: ['running'],
 	model: ['black'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/A8.png'
   },
 ]
 
@@ -1054,7 +1054,7 @@ var watchface = [
     color: 'black',
     style: ['casual','dress','comfort'],
 	model: ['black'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/black-watch-face.png'
   },
 	{
     category: 'watch',
@@ -1062,22 +1062,22 @@ var watchface = [
     color: 'silver',
     style: ['casual','dress','comfort'],
 	model: ['silver'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/silver-watch.png'
   },
 	{
     category: 'watch',
     name: 'Garmin 920',
     color: 'black',
-    style: ['running','comfort'],
+    style: ['running'],
 	model: ['black'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/garmin-920.png'
   },
 ]
 
 var belts = [
   {
     category: 'belt',
-    name: 'Black Nixion Belt',
+    name: 'Black Nixon Belt',
     color: 'black',
     style: ['casual','dress'], 
     image: ''
