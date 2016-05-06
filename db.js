@@ -74,7 +74,7 @@ var coats = [
     {
     category: 'coat',
     name: 'Thunder Jacket',
-    color: 'navy',
+    color: 'thunder',
     style: ['casual'],
     weather: ["cold","fair"],
     image: ''
@@ -831,7 +831,7 @@ var shoes = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/adidas.png'
   },
 	{
     category: 'shoe',
@@ -839,7 +839,7 @@ var shoes = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair","warm",'hot'],
-    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/black-converse.png'
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/black-converse_1.png'
   },
 	{
     category: 'shoe',
@@ -847,7 +847,7 @@ var shoes = [
     color: 'white',
     style: ['casual'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/white-converse.png'
   },
 	{
     category: 'shoe',
@@ -855,7 +855,7 @@ var shoes = [
     color: 'khaki',
     style: ['casual'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/clarks-tan-boots.png'
   },
 	{
     category: 'shoe',
@@ -863,7 +863,7 @@ var shoes = [
     color: 'white',
     style: ['casual','dress'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/white-colehann.png'
   },
 	{
     category: 'shoe',
@@ -871,7 +871,7 @@ var shoes = [
     color: 'black',
     style: ['casual','dress'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/gucci.png'
   },
 	{
     category: 'shoe',
@@ -879,7 +879,7 @@ var shoes = [
     color: 'brown',
     style: ['casual','dress'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/brown-shoes.png'
   },
 	{
     category: 'shoe',
@@ -887,7 +887,7 @@ var shoes = [
     color: 'blue',
     style: ['casual','comfort'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/blue-flyknit.png'
   },
 	{
     category: 'shoe',
@@ -895,7 +895,7 @@ var shoes = [
     color: 'blue',
     style: ['casual','comfort'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/lightblue%20nike%20free.png'
   },
 	{
     category: 'shoe',
@@ -903,7 +903,7 @@ var shoes = [
     color: 'gray',
     style: ['casual'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/gray%20nikes.png'
   },
 	{
     category: 'shoe',
@@ -911,7 +911,15 @@ var shoes = [
     color: 'navy',
     style: ['casual'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/nike-blue.png'
+  },
+	{
+    category: 'shoe',
+    name: "Blue Cole Hanns",
+    color: 'navy',
+    style: ['dress'],
+    weather: ["cold","fair","warm",'hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/blue-colehanns%20copy.png'
   },
 //================================= running shoes =================================
 	{
@@ -920,7 +928,7 @@ var shoes = [
     color: 'gray',
     style: ['running'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/Asic%20Gel-Kayano%2022.png'
   },
 	{
     category: 'shoe',
@@ -928,7 +936,7 @@ var shoes = [
     color: 'gray',
     style: ['running'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/Asic%20Gel-Cumulas.png'
   },
 	{
     category: 'shoe',
@@ -936,7 +944,7 @@ var shoes = [
     color: 'navy',
     style: ['running'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/Mizuno%20Wave%20Rider%2017.png'
   },
 	{
     category: 'shoe',
@@ -944,7 +952,7 @@ var shoes = [
     color: 'blue',
     style: ['running'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/Asic%20Gel-Nimbus.png'
   },
 	{
     category: 'shoe',
@@ -952,7 +960,7 @@ var shoes = [
     color: 'green',
     style: ['running'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/New%20Balance%20Rev%20lite.png'
   },
 	{
     category: 'shoe',
@@ -960,7 +968,7 @@ var shoes = [
     color: 'gray',
     style: ['running','comfort'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/on%20-running-shoes.png'
   },
 	{
     category: 'shoe',
@@ -968,7 +976,15 @@ var shoes = [
     color: 'red',
     style: ['running'],
     weather: ["cold","fair","warm",'hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/Asic%20Gel%20Noosa%20Tri%209.png'
+  },
+	{
+    category: 'shoe',
+    name: 'Pierce Footwear T1',
+    color: 'orange',
+    style: ['running'],
+    weather: ["cold","fair","warm",'hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/george-pierce.png'
   }
 ]
 
@@ -1080,28 +1096,35 @@ var belts = [
     name: 'Black Nixon Belt',
     color: 'black',
     style: ['casual','dress'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/nixon-belt.png'
   },
 	{
     category: 'belt',
     name: 'Black Express Belt',
     color: 'black',
     style: ['dress'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/black-express-belt.png'
   },
 	{
     category: 'belt',
     name: 'Brown Express Belt',
     color: 'Brown',
     style: ['dress'], 
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/brown-express-belt.png'
   },
 	{
     category: 'belt',
     name: 'Heart Rate Moniter',
     color: 'black',
-    style: ['running','comfort'], 
-    image: ''
+    style: ['running'], 
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/HRM-Tritrade.png'
+  },
+	{
+    category: 'belt',
+    name: '',
+    color: 'black',
+    style: ['comfort','casual'], 
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/no-belt.png'
   }
 ]
 
@@ -1167,12 +1190,12 @@ var DataBase = {
 
 var badColors = {
 	red: ['pink','red','purple','green','yellow'],
-	black: ['black'],
+	black: ['black','thunder'],
 	white:['white'],
-	blue:['blue','navy'],
+	blue:['blue','navy','thunder'],
 	green:['green','red'],
 	gray:['gray'],
-	navy:['black','navy'],
+	navy:['black','navy','thunder'],
 	orange:['red'],
 	khaki:["khaki",'red'],
 	yellow:['red','yellow'],
