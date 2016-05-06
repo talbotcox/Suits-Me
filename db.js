@@ -1,11 +1,19 @@
 var coats = [
-  {
+    {
+    category: 'coat',
+    name: '',
+    color: 'black',
+    style: ['casual','fair','running','dress'],
+    weather: ["warm",'hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/add5.png'
+  },
+	{
     category: 'coat',
     name: 'Black Lulu Vest',
     color: 'black',
     style: ['casual'],
     weather: ["fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/lulu-vest.png'
   },
     {
     category: 'coat',
@@ -13,7 +21,7 @@ var coats = [
     color: 'blue',
     style: ['casual'],
     weather: ["fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/blue-vest.png'
   },
     {
     category: 'coat',
@@ -21,23 +29,24 @@ var coats = [
     color: 'blue',
     style: ['casual','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a18.png'
   },
+//sillyship284
     {
     category: 'coat',
     name: 'MIO Pull Over',
     color: 'blue',
     style: ['casual','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a1.png'
   },
     {
     category: 'coat',
-    name: 'Empyre Jacket',
+    name: 'Empyre Hoodie',
     color: 'gray',
     style: ['casual','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a2.png'
   },
     {
     category: 'coat',
@@ -45,7 +54,7 @@ var coats = [
     color: 'gray',
     style: ['casual','running','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a3.png'
   },
     {
     category: 'coat',
@@ -53,7 +62,7 @@ var coats = [
     color: 'gray',
     style: ['comfort','running'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a4.png'
   },
     {
     category: 'coat',
@@ -61,7 +70,7 @@ var coats = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a5.png'
   },
     {
     category: 'coat',
@@ -69,7 +78,7 @@ var coats = [
     color: 'green',
     style: ['casual'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a6.png'
   },
     {
     category: 'coat',
@@ -77,7 +86,7 @@ var coats = [
     color: 'thunder',
     style: ['casual'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a7.png'
   },
     {
     category: 'coat',
@@ -85,7 +94,7 @@ var coats = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a8.png'
   },
     {
     category: 'coat',
@@ -93,7 +102,7 @@ var coats = [
     color: 'black',
     style: ['casual','running','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a9.png'
   },
     {
     category: 'coat',
@@ -101,7 +110,7 @@ var coats = [
     color: 'black',
     style: ['casual','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a10.png'
   },
     {
     category: 'coat',
@@ -109,7 +118,7 @@ var coats = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a11.png'
   },
     {
     category: 'coat',
@@ -117,7 +126,15 @@ var coats = [
     color: 'gray',
     style: ['casual','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a12.png'
+  },
+	{
+    category: 'coat',
+    name: 'Gray Lulu half Zip',
+    color: 'gray',
+    style: ['casual','comfort'],
+    weather: ["cold","fair"],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a13.png'
   },
     {
     category: 'coat',
@@ -125,7 +142,7 @@ var coats = [
     color: 'gray',
     style: ['casual','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a14.png'
   },
     {
     category: 'coat',
@@ -133,7 +150,7 @@ var coats = [
     color: 'black',
     style: ['casual','comfort','running'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a15.png'
   },
     {
     category: 'coat',
@@ -141,7 +158,7 @@ var coats = [
     color: 'black',
     style: ['casual','dress'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a16.png'
   },
     {
     category: 'coat',
@@ -149,19 +166,44 @@ var coats = [
     color: 'black',
     style: ['casual','dress'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/a17.png'
   },
 ];
 
 var shirts = [
 //================================= Short Sleeves =================================
-  {
+  
+	{
+    category: 'shirt',
+    name: 'Memorial Finisher shirtirt',
+    color: 'green',
+    style: ['casual','comfort'],
+    weather: ["cold","fair","warm","hot"],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q39.png'
+  },
+	{
     category: 'shirt',
     name: 'White Ironman Shirt',
     color: 'white',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q1_1.png'
+  },
+	{
+    category: 'shirt',
+    name: 'RefactorU Shirt',
+    color: 'white',
+    style: ['casual','comfort'],
+    weather: ["cold","fair","warm","hot"],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q6_1.png'
+  },
+	{
+    category: 'shirt',
+    name: 'Live Wire Shirt',
+    color: 'white',
+    style: ['casual'],
+    weather: ["cold","fair","warm","hot"],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q5_1.png'
   },
 	{
     category: 'shirt',
@@ -169,7 +211,7 @@ var shirts = [
     color: 'white',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q2_1.png'
   },
 	{
     category: 'shirt',
@@ -177,7 +219,7 @@ var shirts = [
     color: 'white',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q3_1.png'
   },
 	{
     category: 'shirt',
@@ -185,7 +227,7 @@ var shirts = [
     color: 'white',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q4_1.png'
   },
 	{
     category: 'shirt',
@@ -193,7 +235,7 @@ var shirts = [
     color: 'gray',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q10.png'
   },
 	{
     category: 'shirt',
@@ -201,15 +243,15 @@ var shirts = [
     color: 'gray',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q9.png'
   },
 	{
     category: 'shirt',
-    name: 'Gray Ironman Shirt',
+    name: 'Ironman Support Shirt',
     color: 'gray',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q8.png'
   },
 	{
     category: 'shirt',
@@ -217,23 +259,23 @@ var shirts = [
     color: 'gray',
     style: ['casual','running'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q11.png'
   },
 	{
     category: 'shirt',
     name: 'Orange Lulu Shirt',
     color: 'orange',
-    style: ['casual','running'],
+    style: ['casual','running','comfort'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q12.png'
   },
 	{
     category: 'shirt',
-    name: 'Red Ironman Shirt',
+    name: 'Red Lulu Shirt',
     color: 'red',
-    style: ['casual'],
+    style: ['casual','comfort','running'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q15.png'
   },
 	{
     category: 'shirt',
@@ -241,31 +283,39 @@ var shirts = [
     color: 'red',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q13.png'
   },
 	{
     category: 'shirt',
     name: 'Redman Finisher Shirt',
     color: 'red',
-    style: ['casual'],
+    style: ['casual','comfort'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q14.png'
+  },
+	{
+    category: 'shirt',
+    name: 'Ironman Dominate Shirt',
+    color: 'red',
+    style: ['casual','comfort'],
+    weather: ["cold","fair","warm","hot"],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q38.png'
   },
 	{
     category: 'shirt',
     name: 'Maroon Reebok Shirt',
     color: 'red',
-    style: ['casual'],
+    style: ['casual','comfort'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q16.png'
   },
 	{
     category: 'shirt',
     name: 'Blue Duo Dry Shirt',
     color: 'blue',
     style: ['casual','running'],
-    weather: ["cold","fair","warm"],
-    image: ''
+    weather: ["cold","fair","warm",'hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q17.png'
   },
 	{
     category: 'shirt',
@@ -273,7 +323,7 @@ var shirts = [
     color: 'blue',
     style: ['casual','running'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q18.png'
   },
 	{
     category: 'shirt',
@@ -281,7 +331,7 @@ var shirts = [
     color: 'blue',
     style: ['casual','running','comfort'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q20.png'
   },
 	{
     category: 'shirt',
@@ -289,7 +339,7 @@ var shirts = [
     color: 'blue',
     style: ['casual','comfort'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q19.png'
   },
 	{
     category: 'shirt',
@@ -297,7 +347,7 @@ var shirts = [
     color: 'blue',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q21.png'
   },
 	{
     category: 'shirt',
@@ -305,7 +355,15 @@ var shirts = [
     color: 'blue',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q22.png'
+  },
+	{
+    category: 'shirt',
+    name: 'Memorial Maroon',
+    color: 'blue',
+    style: ['casual','running'],
+    weather: ["cold","fair","warm","hot"],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b29_1.png'
   },
 	{
     category: 'shirt',
@@ -313,7 +371,7 @@ var shirts = [
     color: 'blue',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q23.png'
   },
 	{
     category: 'shirt',
@@ -321,7 +379,7 @@ var shirts = [
     color: 'navy',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q24.png'
   },
 	{
     category: 'shirt',
@@ -329,7 +387,7 @@ var shirts = [
     color: 'navy',
     style: ['casual','running','comfort'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q25.png'
   },
 	{
     category: 'shirt',
@@ -337,15 +395,7 @@ var shirts = [
     color: 'black',
     style: ['casual','running'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
-  },
-	{
-    category: 'shirt',
-    name: '70.3 Finisher Shirt',
-    color: 'black',
-    style: ['casual','comfort'],
-    weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/26q_1.png'
   },
 	{
     category: 'shirt',
@@ -353,7 +403,15 @@ var shirts = [
     color: 'black',
     style: ['casual','comfort'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q27.png'
+  },
+	{
+    category: 'shirt',
+    name: 'Ironman Shirt',
+    color: 'black',
+    style: ['casual','comfort'],
+    weather: ["cold","fair","warm","hot"],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q26.png'
   },
 	{
     category: 'shirt',
@@ -361,7 +419,7 @@ var shirts = [
     color: 'yellow',
     style: ['running','comfort'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q28.png'
   },
 	{
     category: 'shirt',
@@ -369,7 +427,7 @@ var shirts = [
     color: 'khaki',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q30.png'
   },
 	{
     category: 'shirt',
@@ -377,7 +435,7 @@ var shirts = [
     color: 'white',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q7_1.png'
   },
 	{
     category: 'shirt',
@@ -385,7 +443,7 @@ var shirts = [
     color: 'gray',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q29.png'
   },
 	{
     category: 'shirt',
@@ -393,7 +451,7 @@ var shirts = [
     color: 'green',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q32.png'
   },
 	{
     category: 'shirt',
@@ -401,7 +459,7 @@ var shirts = [
     color: 'gray',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q32.png'
   },
 	{
     category: 'shirt',
@@ -409,7 +467,7 @@ var shirts = [
     color: 'gray',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/34q.png'
   },
 	{
     category: 'shirt',
@@ -417,7 +475,7 @@ var shirts = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q31.png'
   },
 	{
     category: 'shirt',
@@ -425,7 +483,7 @@ var shirts = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q33.png'
   },
 	{
     category: 'shirt',
@@ -433,7 +491,7 @@ var shirts = [
     color: 'white',
     style: ['casual'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q7.png'
   },
 	{
     category: 'shirt',
@@ -441,7 +499,7 @@ var shirts = [
     color: 'green',
     style: ['dress'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q35.png'
   },
 	{
     category: 'shirt',
@@ -449,7 +507,7 @@ var shirts = [
     color: 'gray',
     style: ['dress'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q36.png'
   },
 	{
     category: 'shirt',
@@ -457,7 +515,7 @@ var shirts = [
     color: 'blue',
     style: ['casual','dress'],
     weather: ["cold","fair","warm","hot"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/q37.png'
   },
 //================================= Long Sleeves =================================
   {
@@ -466,7 +524,7 @@ var shirts = [
     color: 'white',
     style: ['casual','running','comfort'],
     weather: ["cold"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b1_1.png'
   },
 	{
     category: 'shirt',
@@ -474,7 +532,7 @@ var shirts = [
     color: 'white',
     style: ['casual','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b3_1.png'
   },
 	{
     category: 'shirt',
@@ -482,7 +540,7 @@ var shirts = [
     color: 'blue',
     style: ['casual'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b6_1.png'
   },
 	{
     category: 'shirt',
@@ -490,7 +548,7 @@ var shirts = [
     color: 'white',
     style: ['casual'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b2_1.png'
   },
 	{
     category: 'shirt',
@@ -498,7 +556,7 @@ var shirts = [
     color: 'blue',
     style: ['casual','running','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b4_1.png'
   },
 	{
     category: 'shirt',
@@ -506,7 +564,7 @@ var shirts = [
     color: 'navy',
     style: ['casual','running','comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b5_1.png'
   },
 	{
     category: 'shirt',
@@ -514,7 +572,15 @@ var shirts = [
     color: 'yellow',
     style: ['casual','running'],
     weather: ["cold",'fair'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b7_1.png'
+  },
+	{
+    category: 'shirt',
+    name: 'Dopey Long Sleeve',
+    color: 'green',
+    style: ['casual','running','comfort'],
+    weather: ["cold",'fair'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b14_1.png'
   },
 	{
     category: 'shirt',
@@ -522,7 +588,7 @@ var shirts = [
     color: 'gray',
     style: ['casual','dress'],
     weather: ["cold",'fair','warm'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b8_1.png'
   },
 	{
     category: 'shirt',
@@ -530,7 +596,7 @@ var shirts = [
     color: 'blue',
     style: ['dress'],
     weather: ["cold",'fair','warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b9_1.png'
   },
 	{
     category: 'shirt',
@@ -538,7 +604,7 @@ var shirts = [
     color: 'white',
     style: ['dress'],
     weather: ["cold",'fair','warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b10_1.png'
   },
 	{
     category: 'shirt',
@@ -546,7 +612,7 @@ var shirts = [
     color: 'pink',
     style: ['dress'],
     weather: ["cold",'fair','warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b11_1.png'
   },
 	{
     category: 'shirt',
@@ -554,7 +620,7 @@ var shirts = [
     color: 'orange',
     style: ['dress'],
     weather: ["cold",'fair','warm'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b12.png'
   },
 	{
     category: 'shirt',
@@ -562,7 +628,7 @@ var shirts = [
     color: 'blue',
     style: ['dress'],
     weather: ["cold",'fair','warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b13.png'
   },
 //=============================================================================
 //================================= Tank Tops =================================
@@ -573,7 +639,7 @@ var shirts = [
     color: 'navy',
     style: ['casual'],
     weather: ['hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p23.png'
   },
 	{
     category: 'shirt',
@@ -581,7 +647,7 @@ var shirts = [
     color: 'white',
     style: ['casual'],
     weather: ['hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p26.png'
   },
 	{
     category: 'shirt',
@@ -589,7 +655,7 @@ var shirts = [
     color: 'blue',
     style: ['casual'],
     weather: ['hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p24.png'
   },
 	{
     category: 'shirt',
@@ -605,7 +671,7 @@ var shirts = [
     color: 'gray',
     style: ['running'],
     weather: ['warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p25.png'
   },
 	{
     category: 'shirt',
@@ -625,7 +691,7 @@ var pants = [
     color: 'khaki',
     style: ['casual','dress'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p1.png'
   },
   	{
     category: 'pant',
@@ -633,7 +699,7 @@ var pants = [
     color: 'red',
     style: ['casual','dress'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p2.png'
   },
   	{
     category: 'pant',
@@ -641,7 +707,7 @@ var pants = [
     color: 'navy',
     style: ['casual','dress'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p3.png'
   },
 	{
     category: 'pant',
@@ -649,7 +715,7 @@ var pants = [
     color: 'black',
     style: ['casual','dress'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p4.png'
   },
 	{
     category: 'pant',
@@ -657,7 +723,7 @@ var pants = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p8.png'
   },
     {
     category: 'pant',
@@ -665,7 +731,7 @@ var pants = [
     color: 'light-blue',
     style: ['casual'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p5.png'
   },
 	{
     category: 'pant',
@@ -673,7 +739,7 @@ var pants = [
     color: 'navy',
     style: ['casual'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p6.png'
   },
 	{
     category: 'pant',
@@ -681,7 +747,7 @@ var pants = [
     color: 'black',
     style: ['casual'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p7.png'
   },
 	{
     category: 'pant',
@@ -689,15 +755,15 @@ var pants = [
     color: 'navy',
     style: ['casual','dress'],
     weather: ["cold","fair","warm"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p22.png'
   },
 	{
     category: 'pant',
-    name: 'Lighter Express Jeans',
+    name: 'Lighter Jeans',
     color: 'navy',
     style: ['casual','dress'],
-    weather: ["cold","fair","warm"],
-    image: ''
+    weather: ["cold","fair","warm",'hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/light-moto.png'
   },
 //================================= Shorts & Running =================================
 	{
@@ -706,7 +772,7 @@ var pants = [
     color: 'black',
     style: ['casual'],
     weather: ['warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p19.png'
   },
 	{
     category: 'pant',
@@ -714,7 +780,7 @@ var pants = [
     color: 'black',
     style: ['casual'],
     weather: ['warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p21.png'
   },
 	{
     category: 'pant',
@@ -722,23 +788,23 @@ var pants = [
     color: 'Khaki',
     style: ['casual'],
     weather: ['warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p20.png'
   },
 	{
     category: 'pant',
     name: '7" Camo Lulu Shorts',
     color: 'black',
     style: ['casual','running'],
-    weather: ['warm','hot'],
-    image: ''
+    weather: ['cold','fair','warm','hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p16.png'
   },
 	{
     category: 'pant',
     name: '7" Black Lulu Shorts',
     color: 'black',
     style: ['casual','running'],
-    weather: ['warm','hot'],
-    image: ''
+    weather: ['cold','fair','warm','hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p17.png'
   },
 	{
     category: 'pant',
@@ -746,7 +812,7 @@ var pants = [
     color: 'black',
     style: ['running'],
     weather: ['warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/add3.png'
   },
 	{
     category: 'pant',
@@ -754,15 +820,7 @@ var pants = [
     color: 'black',
     style: ['running'],
     weather: ['warm','hot'],
-    image: ''
-  },
-	{
-    category: 'pant',
-    name: '5" Lulu Running Shorts',
-    color: 'green',
-    style: ['running'],
-    weather: ['warm','hot','fair','cold'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p15.png'
   },
 	{
     category: 'pant',
@@ -770,23 +828,23 @@ var pants = [
     color: 'gray',
     style: ['running'],
     weather: ['warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p14.png'
   },
 	{
     category: 'pant',
     name: 'Asic Running Shorts',
     color: 'blue',
     style: ['running'],
-    weather: ['warm','hot'],
-    image: ''
+    weather: ['cold','fair','warm','hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p13.png'
   },
 	{
     category: 'pant',
-    name: 'Nike Running Shorts',
-    color: 'black',
-    style: ['running'],
-    weather: ['warm','hot'],
-    image: ''
+    name: '5" Green Lulu Shorts',
+    color: 'green',
+    style: ['running','comfort'],
+    weather: ['fair','cold','warm','hot'],
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p18.png'
   },
 //================================= Sweatpants =================================	
 	{
@@ -795,7 +853,7 @@ var pants = [
     color: 'black',
     style: ['comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p12.png'
   },
 	{
     category: 'pant',
@@ -803,7 +861,7 @@ var pants = [
     color: 'gray',
     style: ['comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p11.png'
   },
 	{
     category: 'pant',
@@ -811,7 +869,7 @@ var pants = [
     color: 'gray',
     style: ['comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p9.png'
   },
 	{
     category: 'pant',
@@ -819,7 +877,7 @@ var pants = [
     color: 'black',
     style: ['comfort'],
     weather: ["cold","fair"],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p10.png'
   }
 ]
 
