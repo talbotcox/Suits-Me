@@ -586,7 +586,7 @@ var shirts = [
     category: 'shirt',
     name: 'Gray Button Up',
     color: 'gray',
-    style: ['casual','dress'],
+    style: ['dress'],
     weather: ["cold",'fair','warm'],
     image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/b8_1.png'
   },
@@ -663,7 +663,7 @@ var shirts = [
     color: 'green',
     style: ['running'],
     weather: ['warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/add2.png'
   },
 	{
     category: 'shirt',
@@ -679,7 +679,7 @@ var shirts = [
     color: 'green',
     style: ['running'],
     weather: ['warm','hot'],
-    image: ''
+    image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/add1.png'
   }
 ];
 
@@ -794,7 +794,7 @@ var pants = [
     category: 'pant',
     name: '7" Camo Lulu Shorts',
     color: 'black',
-    style: ['casual','running'],
+    style: ['running'],
     weather: ['cold','fair','warm','hot'],
     image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p16.png'
   },
@@ -802,7 +802,7 @@ var pants = [
     category: 'pant',
     name: '7" Black Lulu Shorts',
     color: 'black',
-    style: ['casual','running'],
+    style: ['running'],
     weather: ['cold','fair','warm','hot'],
     image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/p17.png'
   },
@@ -927,7 +927,7 @@ var shoes = [
     category: 'shoe',
     name: 'Gucci Shoes',
     color: 'black',
-    style: ['casual','dress'],
+    style: ['dress'],
     weather: ["cold","fair","warm",'hot'],
     image: 'http://i233.photobucket.com/albums/ee158/TriBoy44/gucci.png'
   },
@@ -949,7 +949,7 @@ var shoes = [
   },
 	{
     category: 'shoe',
-    name: "light Blue Flyknit's",
+    name: "Light Blue Flyknit's",
     color: 'blue',
     style: ['casual','comfort'],
     weather: ["cold","fair","warm",'hot'],
@@ -1256,7 +1256,7 @@ var badColors = {
 	navy:['black','navy','thunder'],
 	orange:['red'],
 	khaki:["khaki",'red'],
-	yellow:['red','yellow'],
+	yellow:['red','yellow','blue'],
 	pink:['pink','red']
 }
 
