@@ -19,7 +19,7 @@
 				var request = new XMLHttpRequest();
 
 		        var method = 'GET';
-		        var url = 'http://maps.googleapis.com/maps/api/geocode/json?latlng='+latitude+','+longitude+'&sensor=true';
+		        var url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+latitude+','+longitude+'&sensor=true';
 		        var async = true;
 
 		        request.open(method, url, async);
@@ -42,7 +42,7 @@
 			// this will be the 'wether' equivalent of displayCity
 			mf.displayWeather = function(zipp,cb){
 			var doppler= this;
-					$http.get('http://api.openweathermap.org/data/2.5/weather?zip='+zipp+',us&units=imperial&APPID=6c47381f22d2fc308cc3d5f06edd3d41')
+					$http.get('https://api.openweathermap.org/data/2.5/weather?zip='+zipp+',us&units=imperial&APPID=6c47381f22d2fc308cc3d5f06edd3d41')
 		        .then(function(response){
 				console.log(response)
 				var temp = Math.floor(response.data.main.temp)
