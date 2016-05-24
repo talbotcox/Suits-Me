@@ -1,0 +1,202 @@
+body {
+    background-color: #fafafa;
+}
+
+
+h2 {
+    font-family: 'Helvetica Neue';
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 1;
+    line-height: 26.4px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 180%;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 100;
+}
+
+.time {
+    margin-top: -1%;
+    position: relative;
+    right: 0%;
+    font-size: 58%;
+}
+
+.sky {
+    margin-top: 0%;
+    position: relative;
+    right: -0.3%;
+    font-size: 58%;
+}
+
+.temp {
+    margin-top: 5%;
+    /* width: 20%; */
+    position: relative;
+    right: -14%;
+    /* float: right; */
+}
+
+.skyImg {
+    margin-top: -14%;
+    width: 20%;
+    position: relative;
+    right: 85%;
+    float: right;
+}
+
+.weatherWiget{
+    margin-left: 15%;
+    margin-top: 7%
+}
+
+.outFit{
+    margin-left: 15%;
+}
+
+.headerButtons{
+    margin: auto;
+    display: block;
+    margin-right: 12%;
+}
+
+.welcome {
+    font-size: 4rem;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 100;
+    margin-left: 5%;
+}
+
+.bottom {
+    font-size: 1.7rem;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 100;
+}
+
+@import "compass/css3";
+
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  font-weight: bold;
+  text-align: center;
+  margin-top: 95px;    /*this needs to be the same as the wrapper one*/
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+
+.header {
+    background: white;
+    /*border-bottom: 1px rgba(0,0,0,0.3) solid;*/
+    height: 95px;   /*this needs to be the same as the header one*/
+    box-shadow: 0px 6px 9px #888888;
+}
+
+.footer {
+  background: #fafafa;
+}
+
+.main {
+    text-align: initial;
+    background: #fafafa;
+    font-size: 180%;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 100;
+}
+
+.aside-1 {
+  background: #fafafa;
+}
+
+.aside-2 {
+  background: #fafafa;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+
+
+.coatImg {
+    margin-top: 1%;
+    width: 40%;
+    float: left;
+    position: relative;
+    left: 19%;
+}
+
+.shirtImg {
+    margin-top: 1%;
+    width: 40%;
+    position: relative;
+    right: 16%; 
+    float: right;
+}
+
+.pantsImg {
+    margin-top: 3%;
+    width: 40%;
+    float: left;
+    position: relative;
+    left: 17%;
+}
+
+.shoesImg {
+    margin-top: -1%;
+    width: 27%;
+    position: relative;
+    right: 18%; 
+    float: right;
+}
+
+.beltImg {
+    margin-top: 26%;
+    width: 9%;
+    position: relative;
+    right: -10%;
+    float: right;
+}
+
+.strapImg {
+    margin-top: 28%;
+    width: 19%;
+    position: relative;
+    right: -11%;
+    float: right;
+}
+
+.watchImg {
+    margin-top: 2%;
+    width: 13%;
+    position: relative;
+    right: -8%;
+    float: right;
+}
